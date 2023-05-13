@@ -11,14 +11,10 @@ interface Props {
 }
 
 export default (props: Props) => {
-  let systemInputRef = "Your name is tareef"
+  let systemInputRef = ""
 
   const handleButtonClick = () => {
     props.setCurrentSystemRoleSettings(systemInputRef.value)
     props.setSystemRoleEditing(false)
   }
-
-  return (
-   
-  )
 }
