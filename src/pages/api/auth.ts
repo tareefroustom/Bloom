@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro'
 
-const realPassword = "michal."
+const realPassword = "0991330808"
 
 export const post: APIRoute = async (context) => {
   const body = await context.request.json()
